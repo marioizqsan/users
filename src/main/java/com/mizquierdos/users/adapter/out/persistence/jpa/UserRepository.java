@@ -1,4 +1,4 @@
-package com.mizquierdos.users.adapter.out.persistence;
+package com.mizquierdos.users.adapter.out.persistence.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

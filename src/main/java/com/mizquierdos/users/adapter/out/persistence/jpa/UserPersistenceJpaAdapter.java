@@ -1,4 +1,4 @@
-package com.mizquierdos.users.adapter.out.persistence;
+package com.mizquierdos.users.adapter.out.persistence.jpa;
 
 import com.mizquierdos.users.domain.model.User;
 import com.mizquierdos.users.domain.port.out.LoadUsersPort;
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class UserPersistenceAdapter implements LoadUsersPort {
+public class UserPersistenceJpaAdapter implements LoadUsersPort {
     private final UserRepository userRepository;
 
-    public UserPersistenceAdapter(UserRepository userRepository) {
+    public UserPersistenceJpaAdapter(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
